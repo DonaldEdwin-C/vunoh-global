@@ -112,7 +112,7 @@ async function handleRegister() {
     </div>
     <div class="text-center text-sm">
       Already have an account?
-      <router-link to="login" class="underline underline-offset-4"> Sign In </router-link>
+      <router-link to="auth/login" class="underline underline-offset-4"> Sign In </router-link>
     </div>
   </form>
 </template>

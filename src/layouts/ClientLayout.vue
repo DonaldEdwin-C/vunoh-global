@@ -62,30 +62,7 @@ const { user, logout } = useAuth()
             </Button>
           </router-link>
         </li>
-        <li>
-          <router-link to="">
-            <Button
-              class="size-13 inline-flex justify-center items-center text-sm font-medium rounded-full hover:rounded-lg border border-transparent text-white hover:scale-115 focus:outline-hidden focus:bg-blue-700"
-              href="#"
-            >
-              <svg
-                class="shrink-0 size-5"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <circle cx="11" cy="11" r="8" />
-                <path d="m21 21-4.3-4.3" />
-              </svg>
-            </Button>
-          </router-link>
-        </li>
+
 
         <li>
           <router-link to="/client/requests">

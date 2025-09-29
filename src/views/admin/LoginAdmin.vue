@@ -42,7 +42,6 @@ async function handleLogin() {
     <form @submit.prevent="handleLogin" :class="cn('flex flex-col gap-6', props.class)">
       <div class="flex flex-col items-center gap-2 text-center">
         <h1 class="text-2xl font-bold">Welcome Admin</h1>
-
       </div>
       <div class="grid gap-6">
         <div class="grid gap-3">
@@ -52,9 +51,6 @@ async function handleLogin() {
         <div class="grid gap-3">
           <div class="flex items-center">
             <Label for="password">Password</Label>
-            <a href="#" class="ml-auto text-sm underline-offset-4 hover:underline">
-              Forgot your password?
-            </a>
           </div>
           <Input v-model="password" id="password" type="password" required />
         </div>

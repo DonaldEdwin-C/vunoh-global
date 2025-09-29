@@ -14,8 +14,8 @@ const activeTab = ref('listings')
 const showAddModal = ref(false)
 const newListing = ref({ title: '', description: '', price: '', category_id: '', images: [] })
 
-const selectedRequest = ref(null)
-const requestModal = ref(false)
+// const selectedRequest = ref(null)
+// const requestModal = ref(false)
 
 const listings = computed(() => store.state.provider.listings)
 const loadingListings = computed(() => store.state.provider.loadingListings)
